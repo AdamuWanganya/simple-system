@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Page</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+      <div id="wrapper"> 
+
+        <div id="formDiv">
+          <form method="POST" action="index.php">
+
+
+            <label>Registerartion Number :</label><br>
+            <input type="text" name="regno"><br>
+
+       <p>
+        <label>Student Name:</label><br>
+
+        <input type="text" name="student"><br>
+       </p>
+
+          <p>
+
+           <label>Nationality :</label><br>
+
+           <select name="nationality">
+           <option value="Kenya">Kenya</option>
+           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+           <option value="Israel">Israel</option>
+           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+           <option value="Germany">Germany</option>
+           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+           <option value="Saudi">USA</option>
+           </select>
+
+          </p><br>
+
+          <p>
+            <label>Gender :</label><br>
+           <input type="radio" name="gender" value="male"> Male
+           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+           <input type="radio" name="gender" value="female"> Female
+           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+           <input type="radio" name="gender" value="other"> Other
+          </p><br>
+
+            <p>
+             <label>DOB :</label><br>
+             <input type="date" id="DOB" name="DOB">
+            </p><br>
+
+              <p>
+               <label>Address :</label><br>
+               <textarea id="address" name="address" rows="4" cols="50">
+               </textarea>
+              </p><br>
+
+               <p>
+                 <input type="submit" value="Submit">
+                   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                  <input type="reset" value="reset">
+               </p> 
+            
+
+          </form> 
+
+        </div>
+
+
+
+      </div>
+	
+
+</body>
+</html>
